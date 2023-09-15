@@ -1,3 +1,23 @@
+This is an simple Youtube-clone only front-end part made using Reactjs, JS, Tailwindcss, Redux store.I have make use of various Youtube v3 API's.
+
+### `Features`
+
+Infinite Scrolling.
+Fully optimized search bar implemented using useMemo, debouncing.
+Live chat will be display if the video is liveBroadcast. Although the data's are dummy, because i can't any youtube api which fetches live Chat from Youtube.So hardcoded as of now.
+Implemented a n-level comment Section.
+Also implemented an side NavBar using redux-store.
+
+I believe there is lot of scope for improvement yet to be done.
+
+
+### `How to run this app`
+
+You will need an API key from Google Cloud console (you can get yours from console.cloud.google.com)
+Once you have the api key, just create an <any_name>.js file on the same level as App.js and put this line -> export const GOOGLE_API = <your_api_key>
+You are good to go now, just run npm start and done.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -39,32 +59,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
