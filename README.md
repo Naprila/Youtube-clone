@@ -4,8 +4,8 @@ This is an simple Youtube-clone only front-end part made using Reactjs, JS, Tail
 
 Infinite Scrolling.\
 Fully optimized search bar implemented using useMemo, debouncing.\
-Live chat will be display if the video is liveBroadcast. Although the data's are dummy, because i can't any youtube api which fetches live Chat from Youtube.So hardcoded as of now.\
-Implemented a n-level comment Section.\
+Live chat will be display if the video is liveBroadcast. Although the data's are dummy, because i can't find any youtube api which fetches live Chat from Youtube.So hardcoded as of now.\
+Implemented N-level comment Section.\
 Also implemented an side NavBar using redux-store.\
 
 I believe there is lot of scope for improvement yet to be done.
